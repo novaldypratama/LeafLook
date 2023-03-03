@@ -21,12 +21,13 @@
 title: LeafLook
 email: novaldypratama@mail.ugm.ac.id
 description: >
-  Tanaman sudah menjadi hal yang umum untuk dimanfaatkan oleh manusia.
-  Sama halnya dengan makhluk hidup lainnya, tanaman juga dapat terjangkit suatu penyakit.
-  Tanaman dikatakan sakit apabila fungsi fisiologinya tidak berjalan seperti seharusnya.
-  Penyakit tanaman tersebut dapat disebabkan oleh berbagai hal, mulai dari faktor internal maupun faktor eksternal.
-  Penyakit ini terkadang dianggap remeh dan tidak dipedulikan oleh pemilik tanaman.
-  Padahal, salah satu industri penyumbang pendapatan negara terbesar di Indonesia adalah sektor pertanian.
+  A web app for plant disease identification through image processing is an innovative solution
+  that can assist farmers and agricultural experts in identifying crop diseases quickly and accurately.
+  Users can upload images of diseased plants and receive immediate feedback on the type of disease affecting the crops.
+  LeafLook uses machine learning algorithms and computer vision techniques to analyze the images and make accurate predictions.
+  With the ability to analyze large quantities of data quickly and accurately, the web app can help farmers to save time and money 
+  by preventing the spread of disease and ensuring that crops are healthy and productive. Overall, this technology has the potential 
+  to revolutionize the agriculture industry.
 baseurl: "/LeafLook" # the subpath of your site, e.g. /blog
 url: "https://leaflook.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
