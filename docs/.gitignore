@@ -4,5 +4,3 @@ _posts
 .jekyll-cache
 .jekyll-metadata
 vendor
-/docs/Gemfile
-/docs/Gemfile.lock
