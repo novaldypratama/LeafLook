@@ -20,8 +20,13 @@
 
 title: LeafLook
 email: novaldypratama@mail.ugm.ac.id
-description: >- # this means to ignore newlines until "baseurl:"
-Tanaman sudah menjadi hal yang umum untuk dimanfaatkan oleh manusia. Sama halnya dengan makhluk hidup lainnya, tanaman juga dapat terjangkit suatu penyakit. Tanaman dikatakan sakit apabila fungsi fisiologinya tidak berjalan seperti seharusnya. Penyakit tanaman tersebut dapat disebabkan oleh berbagai hal, mulai dari faktor internal maupun faktor eksternal. Penyakit ini terkadang dianggap remeh dan tidak dipedulikan oleh pemilik tanaman. Padahal, salah satu industri penyumbang pendapatan negara terbesar di Indonesia adalah sektor pertanian.
+description: >
+  Tanaman sudah menjadi hal yang umum untuk dimanfaatkan oleh manusia.
+  Sama halnya dengan makhluk hidup lainnya, tanaman juga dapat terjangkit suatu penyakit.
+  Tanaman dikatakan sakit apabila fungsi fisiologinya tidak berjalan seperti seharusnya.
+  Penyakit tanaman tersebut dapat disebabkan oleh berbagai hal, mulai dari faktor internal maupun faktor eksternal.
+  Penyakit ini terkadang dianggap remeh dan tidak dipedulikan oleh pemilik tanaman.
+  Padahal, salah satu industri penyumbang pendapatan negara terbesar di Indonesia adalah sektor pertanian.
 baseurl: "/LeafLook" # the subpath of your site, e.g. /blog
 url: "https://leaflook.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
