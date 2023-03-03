@@ -23,11 +23,8 @@ email: novaldypratama@mail.ugm.ac.id
 description: >
   A web app for plant disease identification through image processing is an innovative solution
   that can assist farmers and agricultural experts in identifying crop diseases quickly and accurately.
-  Users can upload images of diseased plants and receive immediate feedback on the type of disease affecting the crops.
   LeafLook uses machine learning algorithms and computer vision techniques to analyze the images and make accurate predictions.
-  With the ability to analyze large quantities of data quickly and accurately, the web app can help farmers to save time and money 
-  by preventing the spread of disease and ensuring that crops are healthy and productive. Overall, this technology has the potential 
-  to revolutionize the agriculture industry.
+  Users can take a picture or upload images of diseased plants and receive immediate feedback on the type of disease affecting the crops.
 baseurl: "/LeafLook" # the subpath of your site, e.g. /blog
 url: "https://leaflook.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
