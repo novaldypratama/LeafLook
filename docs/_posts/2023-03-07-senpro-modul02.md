@@ -35,7 +35,7 @@ Kebutuhan para pengguna:
 - Mengetahui cara mengatasi penyakit tumbuhan
 
 #### Use case diagram
-![Use Case Diagram](LeafLook/docs/img/modul02/Use-Case-Diagram.png "Use Case Diagram")
+![Use Case Diagram](https://github.com/novaldypratama/LeafLook/tree/main/docs/img/modul02/Use-Case-Diagram.png?raw=true "Use Case Diagram")
 
 #### Functional Requirements
 
@@ -51,20 +51,17 @@ Kebutuhan para pengguna:
 
 #### Entity Relationship Diagram
 
-![ERD](LeafLook/docs/img/modul02/ERD.png "ERD")
+![ERD](https://github.com/novaldypratama/LeafLook/tree/main/docs/img/modul02/ERD.png?raw=true "ERD")
 
 #### Low-fidelity Wireframe
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/LMWuSG9XClSCS6oJPkyzhz/Low-fi-Leaflook?node-id=575%3A1414&t=dznAUuglZWRZgKOR-1)
 
 #### Gantt-Chart Pengerjaan Proyek
 
-![Gantt Chart](LeafLook/docs/img/modul02/Gantt-Chart.png "Gantt Chart")
+![Gantt Chart](https://github.com/novaldypratama/LeafLook/tree/main/docs/img/modul02/Gantt-Chart.png?raw=true "Gantt Chart")
 
 ## Lab 2.5
 ### Breakdown Proyek
 **Nama Proyek: LeafLook**
 
-![Breakdown Project](LeafLook/docs/img/modul02/Breakdown-Project.png "Breakdown Project")
-
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![Breakdown Project](https://github.com/novaldypratama/LeafLook/tree/main/docs/img/modul02/Breakdown-Project.png?raw=true "Breakdown Project")
