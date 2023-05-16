@@ -32,11 +32,3 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Others
-_site
-_posts
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
