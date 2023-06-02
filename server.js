@@ -1,24 +1,36 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const morgan = require('morgan');
+const bodyParser = require('body-parser'); 
+
 const authRoutes = require('./routes/auth');
-const bodyParserMiddleware = require('./middleware/bodyParser');
-const corsMiddleware = require('./middleware/cors');
-const diseaseRoutes = require('./routes/diseaseRoutes');
-const { connectToDatabase } = require('./db');
+// const diseaseRoutes = require('./routes/diseaseRoutes');
+
+const connectDB = require('./middleware/db');
+const errorHandler = require('./middleware/errorHandler');
+// const { connectToDatabase } = require('./db');
+
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
+
+connectDB();
 
 // Middleware
+app.use(morgan('dev'))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(bodyParserMiddleware);
-app.use(corsMiddleware);
 
 // Routes
 app.use('/auth', authRoutes);
-app.use('/api/disease', diseaseRoutes);
+// app.use('/api/disease', diseaseRoutes);
+
+// Error handling middleware
+app.use(errorHandler);
 
 // Start the server
-// Your server configuration code goes here
+app.listen(PORT, () => {
+    console.log('Server is running on port ' + PORT);
+  });
 
-connectToDatabase();
+// Your server configuration code goes here
+// connectToDatabase();
