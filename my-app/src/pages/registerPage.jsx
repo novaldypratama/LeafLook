@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import GetToKnow from "../components/GetToKnowPage/getToKnow";
+import Register from "../components/RegisterPage/register";
 import Footer from "../components/footer";
 
-const LoginPage = () => {
+const RegisterPage = () => {
     return (
       <>
         <Navbar />
-        <GetToKnow />
+        <Register />
         <Footer />
       </>
     );
   };
   
-  export default LoginPage;
+  export default RegisterPage;

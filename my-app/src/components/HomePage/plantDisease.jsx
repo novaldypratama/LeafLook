@@ -40,12 +40,12 @@ const PlantDisease = () => {
                   {el.description}
                 </div>
               </div>
-              <div className="flex item-center justify-end px-6 mb-6">
+              {/* <div className="flex item-center justify-end px-6 mb-6">
                 <div className="text-[#45485F] text-[12px] pt-0.5 mr-2">
                   Learn More
                 </div>
                 <img src={Arrow} alt="arrow" />
-              </div>
+              </div> */}
             </div>
           );
         })}

@@ -7,6 +7,7 @@ module.exports = {
         home: "url('/src/assets/home.svg')",
         bg_check_plant: "url('/src/assets/bg_check_plant.svg')",
         bg_result: "url('/src/assets/bg_result.svg')",
+        bg_regis_login: "url('/src/assets/bg_regis_login.svg')",
       },
     },
     fontFamily: {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo_brown.svg";
 
 const Hero = () => {
@@ -9,9 +10,11 @@ const Hero = () => {
         <div className="text-[#2F311B] text-[30px] font-roboto font-medium">
           Check Your Plant Disease For Free
         </div>
-        <button className="bg-[#868358] text-white text-[14px] px-14 py-2 mt-4 rounded-md font-roboto">
-          Click Here
-        </button>
+        <Link to="/check-plant-page">
+          <button className="bg-[#868358] text-white text-[14px] px-14 py-2 mt-4 rounded-md font-roboto">
+            Click Here
+          </button>
+        </Link>
       </div>
     </div>
   );
