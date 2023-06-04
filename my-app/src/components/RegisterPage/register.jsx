@@ -36,10 +36,10 @@ const Register = () => {
           })
           .catch((err) => console.log(err));
       } else {
-        toast.error("Password tidak sesuai");
+        toast.error("Password not same");
       }
     } else {
-      toast.error("Isikan seluruh informasi yang dibutuhkan");
+      toast.error("Please fill all data");
     }
   };
 

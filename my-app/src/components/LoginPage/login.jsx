@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { LoginContext } from "../../App";
 
 const Login = () => {
+  const [loggedIn, setLoggedIn] = useContext(LoginContext);
   const [formData, setFormData] = useState({
     username: "",
     password: "",
@@ -19,32 +21,28 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoggedIn(false);
     if (username && password) {
       setFormData({ ...formData, textChange: "Submitting" });
       axios
         .post("http://localhost:8081/auth/login/", formData)
         .then((res) => {
-          if (res.status >= 200 && res.status < 300) {
+          console.log(res.data)
+          if (!res.data.err) {
             toast.success(`Welcome ${res.data}!`);
             setTimeout(() => {
-              navigate("/")
+              navigate("/");
             }, 1000);
+            setLoggedIn(true);
           } else {
-            toast.error(res.data);
+            toast.error(res.data.err)
           }
         })
         .catch((err) => {
-          setFormData({
-            ...formData,
-            username: "",
-            password: "",
-            textChange: "Login",
-          });
           console.log(err.response);
-          toast.error(err.response.data.errors);
         });
     } else {
-      toast.error("Isikan keseluruhan informasi Anda");
+      toast.error("Please fill all data");
     }
   };
 
