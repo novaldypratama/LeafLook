@@ -16,7 +16,8 @@ async function register(req, res) {
           console.log(error);
         } else {
           if (result.length > 0) {
-            return res.send("The username is already in use");
+            const msg = "The username is already in use"
+            return res.send(msg);
           }
         }
         //let hashedPassword = await bcrypt.hash(password, 8);
