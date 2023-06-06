@@ -10,25 +10,25 @@
 <br><br> Anggota 1       : Alfath Nuurlathif Sulistianto - 20/460538/TK/51127
 <br><br> Anggota 2       : Laili Rofi'ah - 20/463604/TK/51596
 
-## ⚡ Presentation Assets
-Link:
+## ⚡ Our Dataset
+[Dataset Link](https://www.kaggle.com/datasets/emmarex/plantdisease?datasetId=70909&sortBy=voteCount)
 
 ## ⚡ Our Model
-Link:
+[Model Link](https://www.kaggle.com/code/alfathnuurlathif/model-senpro)
 
 ## ⚡ How To Run
 
 ### 🌐 Run Backend
 <br> Command untuk run dev script yang didefinisikan di package. json file dalam project.
-<br><br> Note: Branch 460538
+<br><br> Note: Branch _backend_
 #### If you using npm:
 ```
 npm install
-npm run dev
+npm start
 ```
 ### 🌐 Run Frontend
 <br> Command untuk run React project.
-<br><br> Note: Branch main
+<br><br> Note: Branch _main_
 #### if you using npm:
 ```
 npm install
@@ -36,7 +36,7 @@ npm start
 ```
 
 ### 🌐 Run Backend Model
-<br> Note: Branch 463604
+<br> Note: Branch _model-ml_
 ```
 flask run
 ```
