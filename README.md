@@ -10,11 +10,11 @@
 <br><br> Anggota 1       : Alfath Nuurlathif Sulistianto - 20/460538/TK/51127
 <br><br> Anggota 2       : Laili Rofi'ah - 20/463604/TK/51596
 
-## ⚡ Presentation Assets
-Link:
+## ⚡ Our Dataset
+[Dataset Link](https://www.kaggle.com/datasets/emmarex/plantdisease?datasetId=70909&sortBy=voteCount)
 
 ## ⚡ Our Model
-Link:
+[Model Link](https://www.kaggle.com/code/alfathnuurlathif/model-senpro)
 
 ## ⚡ How To Run
 
@@ -24,7 +24,7 @@ Link:
 #### If you using npm:
 ```
 npm install
-npm run dev
+npm start
 ```
 ### 🌐 Run Frontend
 <br> Command untuk run React project.
