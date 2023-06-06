@@ -18,7 +18,7 @@ Link:
 
 ## ⚡ How To Run
 
-### Run Backend
+### 🌐 Run Backend
 <br> Command untuk run dev script yang didefinisikan di package. json file dalam project.
 <br><br> Note: Branch 460538
 #### If you using npm:
@@ -26,7 +26,7 @@ Link:
 npm install
 npm run dev
 ```
-### Run Frontend
+### 🌐 Run Frontend
 <br> Command untuk run React project.
 <br><br> Note: Branch main
 #### if you using npm:
@@ -35,7 +35,7 @@ npm install
 npm start
 ```
 
-### Run Backend Model
+### 🌐 Run Backend Model
 <br> Note: Branch 463604
 ```
 flask run
