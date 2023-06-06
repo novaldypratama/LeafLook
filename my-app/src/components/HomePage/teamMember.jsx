@@ -35,7 +35,7 @@ const TeamMember = () => {
         {member.map((el, index) => {
           return (
             <div className="max-w-xs border-2 border-[#4A612B] rounded-3xl font-roboto">
-              <img className="w-max-12 rounded-3xl" src={el.photo} alt="member" />
+              <img className="w-max-12 rounded-3xl" src={el.photo} alt="member picture" />
               <div className="flex flex-col items-center">
                 <div className="mt-12 text-[22px] font-semibold text-[#2F311B]">
                   {el.name}

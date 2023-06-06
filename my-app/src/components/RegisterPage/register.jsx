@@ -87,7 +87,7 @@ const Register = () => {
             </div>
           </div>
           <div className="flex justify-center mt-6">
-            <button className="bg-[#868358] text-white text-[16px] px-20 py-2 rounded-md font-roboto">
+            <button className="bg-[#868358] text-white text-[16px] px-20 py-2 rounded-md font-roboto hover:transform hover:scale-105 hover:rotate-4 transition-all duration-700">
               Register
             </button>
           </div>

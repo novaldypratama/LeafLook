@@ -11,7 +11,7 @@ const Hero = () => {
           Check Your Plant Disease For Free
         </div>
         <Link to="/check-plant-page">
-          <button className="bg-[#868358] text-white text-[14px] px-14 py-2 mt-4 rounded-md font-roboto">
+          <button className="bg-[#868358] text-white text-[14px] px-14 py-2 mt-4 rounded-md font-roboto hover:transform hover:scale-110 hover:rotate-4 transition-all duration-700">
             Click Here
           </button>
         </Link>

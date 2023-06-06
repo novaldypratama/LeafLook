@@ -208,13 +208,13 @@ const CheckPlant = () => {
             <img
               src={showedImage}
               alt="Selected"
-              className="flex flex-col justify-center items-center shadow-md rounded-md w-80% mx-auto w-[300px] h-[300px]"
+              className="flex flex-col justify-center items-center shadow-md rounded-md w-80% mx-auto w-[400px] h-[400px]"
             />
           ) : (
             <div className="h-64 flex items-center justify-center">
               <video
                 ref={videoRef}
-                className="bg-white flex flex-col w-full h-full"
+                className="bg-white flex flex-col w-full h-full items-center shadow-md rounded-md"
                 autoPlay
               ></video>
             </div>
@@ -237,7 +237,7 @@ const CheckPlant = () => {
               <h2 className="text-lg">Confidence: {confidence}%</h2>
             </div>
           ) : (
-            <p className="p-4 bg-white text-[#868358] text-[18px] mt-4 mb-[px] rounded-md font-roboto">
+            <p className="p-4 bg-white text-[#868358] text-[18px] mt-4 mb-[px] items-center shadow-md rounded-md font-roboto">
               Prediksi belum dilakukan
             </p>
           )}

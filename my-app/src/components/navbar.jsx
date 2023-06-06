@@ -23,7 +23,7 @@ const Navbar = () => {
         <div>
           <div className="flex flex-row space-x-14 px-6">
             <Link to="/check-plant-page">
-              <button className="text-white font-roboto text-[15px]">
+              <button className="text-white font-roboto text-[15px] hover:transform hover:scale-105 hover:rotate-4 transition-all duration-700">
                 CHECK PLANT
               </button>
             </Link>
@@ -33,12 +33,12 @@ const Navbar = () => {
               </button>
             </Link> */}
             <Link to={loggedIn ? "/" : "/register"}>
-              <button onClick={loggedIn ? handleLogout : null} className="text-white font-roboto text-[15px] border-solid rounded-md px-2 border-2 border-white">
+              <button onClick={loggedIn ? handleLogout : null} className="text-white text-center font-roboto text-[15px] border-solid rounded-md px-2 border-2 border-white hover:scale-110 transform transition-all duration-200">
                 {loggedIn ? "LOGOUT" : "REGISTER"}
               </button>
             </Link>
             <Link to={loggedIn ? null : "/login"}>
-              <button className="bg-white text-[#2F311B] rounded-md px-4 font-roboto text-[15px]">
+              <button className="bg-white text-[#2F311B] text-center rounded-md px-4 font-roboto text-[15px] border-white hover:scale-110 transform transition-all duration-200">
                 {loggedIn ? null : "LOGIN"}
               </button>
             </Link>

@@ -1,24 +1,33 @@
 import React from "react";
-import Disease1 from "../../assets/disease_1.svg";
+import Disease1 from "../../assets/potato-early-blight.JPG";
+import Disease2 from "../../assets/potato-late-blight.JPG";
+import Disease3 from "../../assets/pepper-bell-bacterial-spot.JPG";
 import Arrow from "../../assets/arrow.svg";
 
 const PlantDisease = () => {
   //Dumy data
+  const potato = Disease1
+  const tomato1 = Disease2
+  const tomato2 = Disease3
+
   const disease = [
     {
-      title: "Disease A",
+      title: "Potato Early Blight",
+      photo: potato,
       description:
-        "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "Penyakit yang disebabkan oleh patogen jamur Alternaria solani. Gejala yang dialami biasanya dimulai sebagai bintik-bintik kecil berwarna coklat tua pada daun bagian bawah tanaman. Bintik-bintik ini mungkin memiliki cincin konsentris.",
     },
     {
-      title: "Disease B",
+      title: "Potato Late Blight",
+      photo: tomato1,
       description:
-        "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "Penyakit yang disebabkan oleh patogen oomycete phytophthora infestans. Gejala yang dialami yakni menyerang dedaunan dan umbi tanaman kentang. Penyakit ini menyebabkan lesi gelap yang terendam air pada daun, yang dengan cepat meluas dan berubah warna menjadi cokelat.",
     },
     {
-      title: "Disease C",
+      title: "Pepper Bell Bacterial Spot",
+      photo: tomato2,
       description:
-        "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "Penyakit yang disebabkan oleh bakteri Xanthomonas campestris pv. vesicatoria. Penyakit ini memiliki gejala daun yang dimulai dengan bintik-bintik kecil. Bercak-bercak ini awalnya mungkin berwarna hijau tua dan berminyak, namun lama-kelamaan akan berubah menjadi coklat atau hitam.",
     },
   ];
 
@@ -31,7 +40,7 @@ const PlantDisease = () => {
         {disease.map((el, index) => {
           return (
             <div className="max-w-xs border-2 border-[#4A612B] rounded-3xl font-roboto">
-              <img className="w-full" src={Disease1} alt="plant disease" />
+              <img className="w-full" src={el.photo} alt="plant disease" />
               <div className="flex flex-col items-center">
                 <div className="mt-12 text-[22px] font-semibold text-[#2F311B]">
                   {el.title}
