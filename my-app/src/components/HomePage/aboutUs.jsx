@@ -15,19 +15,21 @@ const AboutUs = () => {
             Check Plants
           </div>
           <div className="text-[#2F311B] text-[20px] font-roboto mr-48">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+          Users can take a picture or upload images of diseased plants and 
+          receive immediate feedback on the type of disease affecting the crops.
           </div>
         </div>
       </div>
       <div className="grid grid-cols-2 items-center">
         <div className="flex flex-col ml-48">
-          <div className="text-[#2F311B] text-[32px] font-roboto font-semibold">
+          <div className="text-[#2F311B] text-[32px] font-roboto font-semibold h-full">
             Get To Know
           </div>
           <div className="text-[#2F311B] text-[20px] font-roboto ">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            A web app for plant disease identification through image processing that can 
+            assists farmers and agricultural experts in identifying crop diseases quickly 
+            and accurately. LeafLook uses machine learning algorithms and computer vision
+            techniques to analyze the images and make accurate predictions.
           </div>
         </div>
         <img src={Picture2} alt="Picture Plant" className="mr-32 scale-[0.8]" />

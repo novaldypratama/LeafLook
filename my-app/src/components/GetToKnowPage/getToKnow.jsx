@@ -11,16 +11,12 @@ const GetToKnow = () => {
       <div className="px-16 mb-10">
         <div className="text-[28px] font-semibold">Disease A</div>
         <div className="text-[20px]">
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
+          A web app for plant disease identification through image processing is 
+          an innovative solution that can assist farmers and agricultural experts 
+          in identifying crop diseases quickly and accurately. LeafLook uses machine 
+          learning algorithms and computer vision techniques to analyze the images and 
+          make accurate predictions. Users can take a picture or upload images of diseased 
+          plants and receive immediate feedback on the type of disease affecting the crops.
         </div>
       </div>
     </div>

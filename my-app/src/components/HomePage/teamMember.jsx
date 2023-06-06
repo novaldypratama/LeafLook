@@ -1,20 +1,29 @@
 import React from "react";
-import Disease1 from "../../assets/disease_1.svg";
+import Alfath from "../../assets/Alfath.jpg";
+import Valdy from "../../assets/Valdy.jpg";
+import Laili from "../../assets/Laili.jpg";
 
 const TeamMember = () => {
   //Dumy data
+  const member1 = Valdy
+  const member2 = Alfath
+  const member3 = Laili
+
   const member = [
     {
-      name: "Alfath Nuurlathif S",
-      nim: "20/460538/TK/51127",
+      name: "M. Novaldy Pratama H.", 
+      photo: member1,
+      nim: "20/463606/TK/51598",
     },
     {
       name: "Alfath Nuurlathif S",
+      photo: member2,
       nim: "20/460538/TK/51127",
     },
     {
-      name: "Alfath Nuurlathif S",
-      nim: "20/460538/TK/51127",
+      name: "Laili Rofi'ah",
+      photo: member3,
+      nim: "20/463604/TK/51596",
     },
   ];
   return (
@@ -26,7 +35,7 @@ const TeamMember = () => {
         {member.map((el, index) => {
           return (
             <div className="max-w-xs border-2 border-[#4A612B] rounded-3xl font-roboto">
-              <img className="w-full" src={Disease1} alt="plant disease" />
+              <img className="w-max-12 rounded-3xl" src={el.photo} alt="member" />
               <div className="flex flex-col items-center">
                 <div className="mt-12 text-[22px] font-semibold text-[#2F311B]">
                   {el.name}

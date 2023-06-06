@@ -27,11 +27,11 @@ const Navbar = () => {
                 CHECK PLANT
               </button>
             </Link>
-            <Link to="/">
+            {/* <Link to="/">
               <button className="text-white font-roboto text-[15px]">
                 MY PLANT
               </button>
-            </Link>
+            </Link> */}
             <Link to={loggedIn ? "/" : "/register"}>
               <button onClick={loggedIn ? handleLogout : null} className="text-white font-roboto text-[15px] border-solid rounded-md px-2 border-2 border-white">
                 {loggedIn ? "LOGOUT" : "REGISTER"}
